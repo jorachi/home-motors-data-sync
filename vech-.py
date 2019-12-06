@@ -3,7 +3,7 @@ import json
 from bs4 import BeautifulSoup
 import csv
 
-
+#fiejo
 title = ["vehicle_id","title","description","url","make","model","year","mileage.value","mileage.unit","image[0].url","image[0].tag[0]","transmission","fuel_type","body_style","drivetrain","vin","condition","price","address","exterior_color","sale_price","availability","state_of_vehicle","latitude","longitude"]
 
 with open("vehicle.csv", 'w', newline='', encoding="utf8") as output_file:
